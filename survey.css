@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(16, 47, 134);
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  justify-items: center;
+}
+#main-page {
+  background-color: rgba(113, 122, 202, 0.363);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-flow: column;
+  align-self: center;
+}
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+#survey-form {
+  text-align: center;
+}
+#name {
+  text-align: center;
+}
+#email {
+  text-align: center;
+}
+#number {
+  text-align: center;
+}
+#name-label {
+  text-align: center;
+}
+#email-label {
+  text-align: center;
+}
+#number-label {
+  text-align: center;
+}
+#dropdown {
+  text-align: center;
+}
+#radio #checkbox {
+  display: block;
+}
+
+#textarea {
+  text-align: center;
+}
+#submit {
+  text-align: center;
+}
+p {
+  text-align: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="survey.css" />
+<html>
+  <body>
+    <h1 id="title">Survey Form</h1>
+
+    <div id="main-page">
+      <form action="#" id="survey-form">
+        <p id="description">Let us know how we can Improve your stay with us</p>
+
+        <fieldset>
+          <legend>Contact details</legend>
+          <Label for="name" id="name-label"
+            >Name
+            <input
+              id="name"
+              type="text"
+              name="name-label"
+              required="required"
+              placeholder="Name"
+          /></Label>
+
+          <Label for="email" id="email-label"
+            ><br />Email
+            <input
+              id="email"
+              type="email"
+              name="Email-label"
+              required="required"
+              placeholder="Email"
+          /></Label>
+
+          <Label for="Age" id="number-label"
+            ><br />Age
+            <input
+              id="number"
+              type="number"
+              name="number-label"
+              placeholder="Age"
+              max="100"
+              min="10"
+              required="required"
+          /></Label>
+        </fieldset>
+
+        <p>What did you do during your stay?</p>
+        <select id="dropdown" name="dropdown">
+          <option value="hike">Hiking</option>
+          <option value="Skiing">Skiing</option>
+          <option value="Biking">Biking</option>
+          <option value="Swiming">Swiming</option>
+          <option value="Climbing">Climbing</option>
+          <option value="Kayak">Kayak</option>
+        </select>
+
+        <p>Did you enjoy your stay</p>
+        <div id="radio">
+          <input type="radio" name="enjoy" value="yes" checked="checked" />yes
+          <input type="radio" name="enjoy" value="sort" />sort of
+          <input type="radio" name="enjoy" value="no" />no
+        </div>
+
+        <p>What Items would impove your stay?</p>
+        <div id="checkbox">
+          <input type="checkbox" name="Improve" value="hottub" /> hottub
+          <input type="checkbox" name="Improve" value="sauna" /> sauna
+          <input type="checkbox" name="Improve" value="Bikes" /> Bikes
+          <input type="checkbox" name="Improve" value="dog" /> Dog walking
+          <input type="checkbox" name="Improve" value="pool" /> pool
+        </div>
+
+        <p>Plesce add your extra ideas</p>
+        <textarea id="textarea" name="comments" cols="20" rows="4">
+Enter your thoughts here</textarea
+        >
+
+        <input id="submit" type="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
